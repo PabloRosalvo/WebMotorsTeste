@@ -1,0 +1,6 @@
+framework module Pods_WebmotorsTeste {
+  umbrella header "Pods-WebmotorsTeste-umbrella.h"
+
+  export *
+  module * { export * }
+}
