@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		30AF3347279A15550005D6DC /* WebmotorsTesteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B63781279A10DB00C24283 /* WebmotorsTesteUITests.swift */; };
+		30AF33E7279A388F0005D6DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF33E6279A388F0005D6DC /* WelcomeViewController.swift */; };
+		30AF33EF279A38C30005D6DC /* ListCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF33EE279A38C30005D6DC /* ListCarViewController.swift */; };
+		30AF33F4279A38D20005D6DC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF33F3279A38D20005D6DC /* WelcomeView.swift */; };
+		30AF33FA279A39070005D6DC /* ListCarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF33F9279A39070005D6DC /* ListCarCollectionView.swift */; };
+		30AF33FF279A39200005D6DC /* ListCarColletionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF33FE279A39200005D6DC /* ListCarColletionCell.swift */; };
+		30AF3404279A39390005D6DC /* ListCarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3403279A39390005D6DC /* ListCarViewModel.swift */; };
+		30AF340C279A3A800005D6DC /* ListCarsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF340B279A3A800005D6DC /* ListCarsCoordinator.swift */; };
+		30AF3412279A3BCA0005D6DC /* ErrorGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3410279A3BCA0005D6DC /* ErrorGeneric.swift */; };
+		30AF3413279A3BCA0005D6DC /* ErrorViewGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3411279A3BCA0005D6DC /* ErrorViewGeneric.swift */; };
+		30AF341B279A3C390005D6DC /* ListCarApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3417279A3C390005D6DC /* ListCarApi.swift */; };
+		30AF341C279A3C390005D6DC /* ConnetionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3419279A3C390005D6DC /* ConnetionManager.swift */; };
+		30AF341D279A3C390005D6DC /* ConnectionErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF341A279A3C390005D6DC /* ConnectionErrorManager.swift */; };
 		30B6375D279A10DA00C24283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B6375C279A10DA00C24283 /* AppDelegate.swift */; };
 		30B63767279A10DA00C24283 /* WebmotorsTeste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B63765279A10DA00C24283 /* WebmotorsTeste.xcdatamodeld */; };
 		30B63769279A10DB00C24283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B63768279A10DB00C24283 /* Assets.xcassets */; };
@@ -38,6 +50,18 @@
 /* Begin PBXFileReference section */
 		18296169A9B757F57E8FA13E /* Pods-WebmotorsTeste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebmotorsTeste.release.xcconfig"; path = "Target Support Files/Pods-WebmotorsTeste/Pods-WebmotorsTeste.release.xcconfig"; sourceTree = "<group>"; };
 		21819EEA11AA513570683EC7 /* Pods-WebmotorsTeste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebmotorsTeste.debug.xcconfig"; path = "Target Support Files/Pods-WebmotorsTeste/Pods-WebmotorsTeste.debug.xcconfig"; sourceTree = "<group>"; };
+		30AF33E6279A388F0005D6DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		30AF33EE279A38C30005D6DC /* ListCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarViewController.swift; sourceTree = "<group>"; };
+		30AF33F3279A38D20005D6DC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		30AF33F9279A39070005D6DC /* ListCarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarCollectionView.swift; sourceTree = "<group>"; };
+		30AF33FE279A39200005D6DC /* ListCarColletionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarColletionCell.swift; sourceTree = "<group>"; };
+		30AF3403279A39390005D6DC /* ListCarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarViewModel.swift; sourceTree = "<group>"; };
+		30AF340B279A3A800005D6DC /* ListCarsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCarsCoordinator.swift; sourceTree = "<group>"; };
+		30AF3410279A3BCA0005D6DC /* ErrorGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorGeneric.swift; sourceTree = "<group>"; };
+		30AF3411279A3BCA0005D6DC /* ErrorViewGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewGeneric.swift; sourceTree = "<group>"; };
+		30AF3417279A3C390005D6DC /* ListCarApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCarApi.swift; sourceTree = "<group>"; };
+		30AF3419279A3C390005D6DC /* ConnetionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnetionManager.swift; sourceTree = "<group>"; };
+		30AF341A279A3C390005D6DC /* ConnectionErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionErrorManager.swift; sourceTree = "<group>"; };
 		30B63759279A10DA00C24283 /* WebmotorsTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebmotorsTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B6375C279A10DA00C24283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B63766279A10DA00C24283 /* WebmotorsTeste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebmotorsTeste.xcdatamodel; sourceTree = "<group>"; };
@@ -87,6 +111,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30AF33DE279A380C0005D6DC /* Coordinator  */ = {
+			isa = PBXGroup;
+			children = (
+				30AF340B279A3A800005D6DC /* ListCarsCoordinator.swift */,
+			);
+			path = "Coordinator ";
+			sourceTree = "<group>";
+		};
+		30AF33DF279A38180005D6DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30AF3403279A39390005D6DC /* ListCarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30AF33E0279A38280005D6DC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30AF33E6279A388F0005D6DC /* WelcomeViewController.swift */,
+				30AF33EE279A38C30005D6DC /* ListCarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		30AF33E1279A38300005D6DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30AF33F8279A38E00005D6DC /* Cell */,
+				30AF33F3279A38D20005D6DC /* WelcomeView.swift */,
+				30AF33F9279A39070005D6DC /* ListCarCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30AF33E2279A38340005D6DC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		30AF33E3279A38390005D6DC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				30AF3418279A3C390005D6DC /* Connection */,
+				30AF3417279A3C390005D6DC /* ListCarApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		30AF33E4279A385C0005D6DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30AF3410279A3BCA0005D6DC /* ErrorGeneric.swift */,
+				30AF3411279A3BCA0005D6DC /* ErrorViewGeneric.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30AF33E5279A386A0005D6DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30AF33F8279A38E00005D6DC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				30AF33FE279A39200005D6DC /* ListCarColletionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		30AF3418279A3C390005D6DC /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				30AF3419279A3C390005D6DC /* ConnetionManager.swift */,
+				30AF341A279A3C390005D6DC /* ConnectionErrorManager.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
 		30B63750279A10DA00C24283 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +220,14 @@
 		30B6375B279A10DA00C24283 /* WebmotorsTeste */ = {
 			isa = PBXGroup;
 			children = (
+				30AF33E5279A386A0005D6DC /* Model */,
+				30AF33E4279A385C0005D6DC /* Components */,
+				30AF33E3279A38390005D6DC /* API */,
+				30AF33E2279A38340005D6DC /* DataSource */,
+				30AF33E1279A38300005D6DC /* View */,
+				30AF33E0279A38280005D6DC /* ViewController */,
+				30AF33DF279A38180005D6DC /* ViewModel */,
+				30AF33DE279A380C0005D6DC /* Coordinator  */,
 				30B6375C279A10DA00C24283 /* AppDelegate.swift */,
 				30B63768279A10DB00C24283 /* Assets.xcassets */,
 				30B6376A279A10DB00C24283 /* LaunchScreen.storyboard */,
@@ -399,8 +515,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AF33F4279A38D20005D6DC /* WelcomeView.swift in Sources */,
+				30AF33FA279A39070005D6DC /* ListCarCollectionView.swift in Sources */,
+				30AF3413279A3BCA0005D6DC /* ErrorViewGeneric.swift in Sources */,
+				30AF3412279A3BCA0005D6DC /* ErrorGeneric.swift in Sources */,
 				30B6375D279A10DA00C24283 /* AppDelegate.swift in Sources */,
+				30AF33FF279A39200005D6DC /* ListCarColletionCell.swift in Sources */,
 				30B63767279A10DA00C24283 /* WebmotorsTeste.xcdatamodeld in Sources */,
+				30AF33E7279A388F0005D6DC /* WelcomeViewController.swift in Sources */,
+				30AF341D279A3C390005D6DC /* ConnectionErrorManager.swift in Sources */,
+				30AF33EF279A38C30005D6DC /* ListCarViewController.swift in Sources */,
+				30AF341C279A3C390005D6DC /* ConnetionManager.swift in Sources */,
+				30AF340C279A3A800005D6DC /* ListCarsCoordinator.swift in Sources */,
+				30AF3404279A39390005D6DC /* ListCarViewModel.swift in Sources */,
+				30AF341B279A3C390005D6DC /* ListCarApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
