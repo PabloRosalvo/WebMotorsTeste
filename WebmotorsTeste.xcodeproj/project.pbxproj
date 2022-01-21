@@ -20,6 +20,7 @@
 		30AF341B279A3C390005D6DC /* ListCarApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3417279A3C390005D6DC /* ListCarApi.swift */; };
 		30AF341C279A3C390005D6DC /* ConnetionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF3419279A3C390005D6DC /* ConnetionManager.swift */; };
 		30AF341D279A3C390005D6DC /* ConnectionErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF341A279A3C390005D6DC /* ConnectionErrorManager.swift */; };
+		30AF34DC279A55740005D6DC /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF34DB279A55740005D6DC /* ViewConfiguration.swift */; };
 		30B6375D279A10DA00C24283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B6375C279A10DA00C24283 /* AppDelegate.swift */; };
 		30B63767279A10DA00C24283 /* WebmotorsTeste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B63765279A10DA00C24283 /* WebmotorsTeste.xcdatamodeld */; };
 		30B63769279A10DB00C24283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B63768279A10DB00C24283 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		30AF3417279A3C390005D6DC /* ListCarApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCarApi.swift; sourceTree = "<group>"; };
 		30AF3419279A3C390005D6DC /* ConnetionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnetionManager.swift; sourceTree = "<group>"; };
 		30AF341A279A3C390005D6DC /* ConnectionErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionErrorManager.swift; sourceTree = "<group>"; };
+		30AF34DB279A55740005D6DC /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
 		30B63759279A10DA00C24283 /* WebmotorsTeste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebmotorsTeste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B6375C279A10DA00C24283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B63766279A10DA00C24283 /* WebmotorsTeste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebmotorsTeste.xcdatamodel; sourceTree = "<group>"; };
@@ -195,10 +197,19 @@
 			path = Connection;
 			sourceTree = "<group>";
 		};
+		30AF34DA279A550C0005D6DC /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				30AF34DB279A55740005D6DC /* ViewConfiguration.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
 		30B63750279A10DA00C24283 = {
 			isa = PBXGroup;
 			children = (
 				30B6375B279A10DA00C24283 /* WebmotorsTeste */,
+				30AF34DA279A550C0005D6DC /* Extensions  */,
 				30B63775279A10DB00C24283 /* WebmotorsTesteTests */,
 				30B63780279A10DB00C24283 /* WebmotorsTesteUITests */,
 				30B6375A279A10DA00C24283 /* Products */,
@@ -518,6 +529,7 @@
 				30AF33F4279A38D20005D6DC /* WelcomeView.swift in Sources */,
 				30AF33FA279A39070005D6DC /* ListCarCollectionView.swift in Sources */,
 				30AF3413279A3BCA0005D6DC /* ErrorViewGeneric.swift in Sources */,
+				30AF34DC279A55740005D6DC /* ViewConfiguration.swift in Sources */,
 				30AF3412279A3BCA0005D6DC /* ErrorGeneric.swift in Sources */,
 				30B6375D279A10DA00C24283 /* AppDelegate.swift in Sources */,
 				30AF33FF279A39200005D6DC /* ListCarColletionCell.swift in Sources */,

@@ -9,15 +9,17 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
     
+    private var contentView: WelcomeView = {
+        let view = WelcomeView()
+        return view
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
     override func loadView() {
-        let view = UIView(frame: UIScreen.main.bounds)
-        view.backgroundColor = .blue
-        self.view = view
+        self.view = contentView
     }
 }
 

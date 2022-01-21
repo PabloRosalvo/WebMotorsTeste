@@ -7,7 +7,6 @@ target 'WebmotorsTeste' do
 
   # Pods for WebmotorsTeste
   pod 'Alamofire', '~>4.9.1'
-  pod 'SwiftGen'
   pod 'Kingfisher', '~> 4.0'
   pod 'SnapKit', '~> 5.0.0'
 

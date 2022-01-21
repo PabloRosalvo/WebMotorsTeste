@@ -67,7 +67,6 @@ public class ErrorViewGeneric: UIView {
     
     override public func layoutSubviews() {
         super.layoutSubviews()
-        
     }
     
     @objc
